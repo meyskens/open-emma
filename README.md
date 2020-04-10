@@ -38,4 +38,5 @@ In each of these are sub-categories:
 (structure is work in progress)
 
 for versioning of old recordings we should trust Git and not rely on versioning in file names.
+We are currently using 48000Hz 16bit PCM WAV to store the recordings. While not space efficient it is commonly used when programming with audio.
 
