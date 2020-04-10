@@ -27,3 +27,15 @@ docker-compose run network python3 quick_start_audio_only.py /data/model/0f_1scl
 ```
 The cleaned up can be found in `./data/result/name/clean.wav`.
 
+## Project structure
+`cleaned/` contains long form audio samples which are cleaned up by the neural net.
+`en/ nl/ fr/ de/` are the languages folders.
+In each of these are sub-categories:
+* `numbers` for numbers
+* `trains` for train types eg. IC, IR, L, S1, Thalys, Eurostar
+* `stations` contains station names in telegegraph notation (see http://users.telenet.be/pk/stations.htm) in case of doubt (Noorderkempen) use the NMBS notation
+
+(structure is work in progress)
+
+for versioning of old recordings we should trust Git and not rely on versioning in file names.
+
