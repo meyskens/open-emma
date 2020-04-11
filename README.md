@@ -34,7 +34,7 @@ In each of these are sub-categories:
 * `numbers` for numbers
 * `words` general words or sentances to composite messages
 * `trains` for train types eg. IC, IR, L, S1, Thalys, Eurostar
-* `stations` contains station names in telegegraph notation (see http://users.telenet.be/pk/stations.htm) in case of doubt (Noorderkempen) use the NMBS notation
+* `stations` contains station names in telegegraph notation (see http://users.telenet.be/pk/stations.htm) in case of doubt (Noorderkempen) use the NMBS notation. In case of no code (non-Belgian stations) the name in it's native language will be used.
 
 (structure is work in progress)
 
